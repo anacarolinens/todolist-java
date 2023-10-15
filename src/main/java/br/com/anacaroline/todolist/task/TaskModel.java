@@ -24,11 +24,11 @@ public class TaskModel {
     private String title;
     private LocalDateTime startAt;
     private LocalDateTime endAt;
-    private String prioridade;
-
+    private String priority;
+    private UUID idUser;
+    
     @CreationTimestamp
     private LocalDateTime createdAt;
     
     
-    private UUID idUser;
 }
